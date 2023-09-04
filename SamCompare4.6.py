@@ -12,8 +12,7 @@ start = time.time()
 artFile = sys.argv[1] #Art_hs_GRCh38_*_*_sort.sam 
 samFolder = sys.argv[2] 
 outputDir = sys.argv[3]
-restartFile = sys.argv[4]
-countDataFile = sys.argv[5]
+countDataFile = sys.argv[4]
 
 
 UnmappedFlag = {'69', '73','77', '85', '87','89','93', '101', '103', '117'} #First of pair that are unmapped
